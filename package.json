@@ -1,0 +1,44 @@
+{
+  "name": "vue3-window",
+  "version": "0.0.3",
+  "description": "A virtualized window component suitable for Vue 3, based on react-window",
+  "type": "module",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run build && pnpm run typecheck",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["virtualized","vue3","vue3-virtualized","react-window"],
+  "author": "yihou <yihouhello@gmail.com> (https://github.com/yihouhello)",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.1",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "dependencies": {
+    "vue": "^3.5.27"
+  },
+  "peerDependencies": {
+    "vue": ">=3.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.7.0"
+  }
+}
