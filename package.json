@@ -1,6 +1,6 @@
 {
   "name": "vue3-window",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A virtualized window component suitable for Vue 3, based on react-window",
   "type": "module",
   "main": "./dist/index.cjs.js",
@@ -19,7 +19,7 @@
     "prepublishOnly": "pnpm run build && pnpm run typecheck",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["virtualized","vue3","vue3-virtualized","react-window"],
+  "keywords": ["vue3-window","virtualized","vue3","vue3-virtualized","react-window"],
   "author": "yihou <yihouhello@gmail.com> (https://github.com/yihouhello)",
   "license": "ISC",
   "packageManager": "pnpm@10.26.1",
