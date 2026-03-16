@@ -1,6 +1,6 @@
 {
   "name": "vue3-window",
-  "version": "0.0.9",
+  "version": "0.1.3",
   "description": "A virtualized window component suitable for Vue 3, based on react-window",
   "type": "module",
   "main": "./dist/index.cjs.js",
@@ -33,6 +33,7 @@
   "files": [
     "dist",
     "README.md",
+    "README.zh-CN.md",
     "LICENSE"
   ],
   "sideEffects": false,

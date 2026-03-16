@@ -2,20 +2,12 @@
 
 `vue3-window` is a component library that helps render large lists of data quickly and without the performance problems that often go along with rendering a lot of data. It's used in a lot of places, from React DevTools to the Replay browser.
 
-## Support
-
-If you like this project there are several ways to support it:
-
-- [Become a GitHub sponsor](https://github.com/sponsors/bvaughn/)
-- [Become an Open Collective sponsor](https://opencollective.com/react-window#sponsor)
-- or [buy me a coffee](http://givebrian.coffee/)
 
 
 ## Installation
 
 Begin by installing the library from NPM:
 
-```sh
 npm install vue3-window
 ```
 
