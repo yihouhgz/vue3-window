@@ -1,6 +1,6 @@
 {
   "name": "vue3-window",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "A virtualized window component suitable for Vue 3, based on react-window",
   "type": "module",
   "main": "./dist/index.cjs.js",
@@ -18,8 +18,7 @@
     "build": "vite build",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run build && pnpm run typecheck",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm version patch && npm publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "vue3-window",
