@@ -1,6 +1,6 @@
 {
   "name": "vue3-window",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A virtualized window component suitable for Vue 3, based on react-window",
   "type": "module",
   "main": "./dist/index.cjs.js",
