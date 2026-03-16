@@ -1,13 +1,15 @@
-<img src="https://react-window.vercel.app/og.svg" alt="react-window logo" width="400" height="210" />
+<img src="https://react-window.vercel.app/og.png" alt="react-window logo" width="400" height="210" />
+
+Implemented based on react-window
 
 `vue3-window` is a component library that helps render large lists of data quickly and without the performance problems that often go along with rendering a lot of data. It's used in a lot of places, from React DevTools to the Replay browser.
-
 
 
 ## Installation
 
 Begin by installing the library from NPM:
 
+```sh
 npm install vue3-window
 ```
 
@@ -26,9 +28,7 @@ Documentation for this project is available at [react-window.vercel.app](https:/
 ### List
 
 <!-- List:description:begin -->
-
 Renders data with many rows.
-
 <!-- List:description:end -->
 
 #### Required props
@@ -155,12 +155,10 @@ The default value is &quot;div&quot;, meaning that List renders an HTMLDivElemen
 ### Grid
 
 <!-- Grid:description:begin -->
-
 Renders data with many rows and columns.
 
 ℹ️ Unlike `List` rows, `Grid` cell sizes must be known ahead of time.
 Either static sizes or something that can be derived (from the data in `CellProps`) without rendering.
-
 <!-- Grid:description:end -->
 
 #### Required props
